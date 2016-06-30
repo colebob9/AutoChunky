@@ -1,8 +1,9 @@
 """
-Chunky?? v1.0.0
+AutoChunky v1.0.0
 Written by colebob9
 Coded in Python 3
 Released under the MIT license
+Source code repo: https://github.com/colebob9/AutoChunky
 """
 import subprocess
 
@@ -34,9 +35,9 @@ def render():
             print("All renders done!")
             break
 
-print("Chunky?? v1.0.0")
+print("AutoChunky v1.0.0")
 print("Written by colebob9")
-print("Source Code on GitHub")
+print("Source Code on GitHub.com/colebob9/AutoChunky")
 checkConf()
 render()
 exit
