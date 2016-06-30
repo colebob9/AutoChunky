@@ -21,7 +21,7 @@ def checkConf():
 
 def render():
     queueNumber = 0
-    chunkyPath = "ChunkyLauncher.jar" # please don't keep like this. only windows compatible.
+    chunkyPath = "ChunkyLauncher.jar"
     while True:
         try:
             currentScene = queueList[queueNumber]
