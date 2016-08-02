@@ -1,10 +1,11 @@
 """
-AutoChunky v1.1.0-dev
+AutoChunky v1.0.1-dev
 Written by colebob9
 Coded in Python 3
 Released under the MIT license
 Source code repo: https://github.com/colebob9/AutoChunky
 """
+import shlex
 import subprocess
 
 def checkConf():
@@ -28,14 +29,14 @@ def render():
             print('')
             print("Now rendering: " + currentScene)
             print('')
-            subprocess.call("java -jar %s -render %s" % (chunkyPath, currentScene))
+            subprocess.call(shlex.split("java -jar %s -render %s" % (chunkyPath, currentScene)))
             queueNumber = queueNumber + 1
         except IndexError:
             print('')
             print("All renders done!")
             break
 
-print("AutoChunky v1.1.0-dev")
+print("AutoChunky v1.0.1-dev")
 print("Written by colebob9")
 print("Source Code on GitHub.com/colebob9/AutoChunky")
 checkConf()
