@@ -17,7 +17,7 @@ Do CTRL-C to exit out of the script. Keep in mind that any rendering progress si
 ## Requirements
 * Java (to run Chunky itself)
 * Python 3 (to run the script)
-* Any text editor
+* Any plain text editor: Notepad, Notepad++, or TextEdit formatted as plain text will do fine.
 
 ## Notes
 [Released under the MIT license.](https://github.com/colebob9/AutoChunky/blob/master/LICENSE) 
