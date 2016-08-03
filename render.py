@@ -1,5 +1,5 @@
 """
-AutoChunky v1.0.1-dev
+AutoChunky v1.0.1
 Written by colebob9
 Coded in Python 3
 Released under the MIT license
@@ -36,7 +36,7 @@ def render():
             print("All renders done!")
             break
 
-print("AutoChunky v1.0.1-dev")
+print("AutoChunky v1.0.1")
 print("Written by colebob9")
 print("Source Code on GitHub.com/colebob9/AutoChunky")
 checkConf()
