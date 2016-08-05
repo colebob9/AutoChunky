@@ -25,4 +25,4 @@ Do CTRL-C to exit out of the script. Keep in mind that any rendering progress si
 Please [report any issues](https://github.com/colebob9/AutoChunky/issues) my program may have. [Pull requests](https://github.com/colebob9/AutoChunky/pulls) are welcome too!
 
 
-Tested with Windows 7 and 10. Most likely will work with Mac OS X, Linux or any other OS as long as Python 3 is installed.
+Tested with Windows 7, 10 and Ubuntu 16.04. Most likely will work with Mac OS X, Linux or any other OS as long as Python 3 is installed.
