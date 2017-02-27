@@ -8,6 +8,12 @@ Source code repo: https://github.com/colebob9/AutoChunky
 import shlex
 import subprocess
 
+# Config
+chunkyPath = "ChunkyLauncher.jar"
+
+# End config
+
+
 # Title
 print("AutoChunky v1.0.2")
 print("Written by colebob9")
@@ -25,8 +31,7 @@ print(queueList)
 print('')
 
 # Queue and render command
-queueNumber = 0
-chunkyPath = "ChunkyLauncher.jar"
+
 for r in queueList:
         print('')
         print("Now rendering: " + r)
